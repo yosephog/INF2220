@@ -1,0 +1,5 @@
+
+the complexity of the entire programm is O(N**2).
+there are differnt methods that use loops and have
+nested loops.
+since we are interested with the wors case that would be it

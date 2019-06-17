@@ -1,0 +1,5 @@
+A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted. Some sorting algorithms are stable by nature like Insertion sort, Merge Sort, Bubble Sort, etc. And some sorting algorithms are not, like Heap Sort, Quick Sort, etc.
+i think radix sort is stable. since it compares each values in the given data, it would
+be stable.
+it depends on the NUM_BIT i used and the length of the maxNumber bit. for example if 
+NUM_BIT IS 7  and the maxNumber is 99 then i would write to a[] 2 times and to b[] 3 times.

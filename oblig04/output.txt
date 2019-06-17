@@ -1,0 +1,37 @@
+my hay is ananbanpanmanganheftadsfasd 
+LOKOMOTIV
+
+my needle _K_M
+Number of similar found is 1
+At pos 30...OKOM
+
+my hay is ananbanpanmanganheftadsfasd 
+LOKOMOTIV
+
+my needle anpanman
+Number of similar found is 1
+At pos 5...anpanman
+
+my hay is ananbanpanmanganheftadsfasd 
+LOKOMOTIV
+
+my needle an_an_
+Number of similar found is 2
+At pos 2...anbanp
+At pos 8...anmang
+my hay is ananbanpanmanganheftadsfasd 
+LOKOMOTIV
+my needle __k
+No similarity is found
+
+my hay is ananbanpanmanganheftadsfasd 
+LOKOMOTIV
+my needle a_d
+Number of similar found is 1
+At pos 24...asd
+
+my hay is ananbanpanmanganheftadsfasd 
+LOKOMOTIV
+my needle __K
+Number of similar found is 1
+At pos 29...LOK

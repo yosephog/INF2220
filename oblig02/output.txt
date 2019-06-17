@@ -1,0 +1,511 @@
+Time: 0
+starting 5
+    current Staff: 2
+Time: 4
+    Finished: 5
+starting 1
+starting 6
+    current Staff: 4
+Time: 6
+    Finished: 6
+    current Staff: 2
+Time: 8
+    Finished: 1
+starting 2
+    current Staff: 4
+Time: 14
+    Finished: 2
+starting 3
+starting 4
+starting 7
+    current Staff: 7
+Time: 15
+    Finished: 3
+    current Staff: 5
+Time: 15
+    Finished: 4
+    current Staff: 2
+Time: 18
+    Finished: 7
+starting 8
+    current Staff: 4
+Time: 22
+    Finished: 8
+==========Task Info=====================
+Task id: 1
+Task name: Build-walls
+Task time: 4
+Task manPower: 2
+Early start :  8
+Late start:  0
+Slack:  0
+Task's neighbour ==>2 , 3 , 
+
+Task id: 2
+Task name: Build-roofs
+Task time: 6
+Task manPower: 4
+Early start :  14
+Late start:  0
+Slack:  0
+Task's neighbour ==>3 , 4 , 7 , 
+
+Task id: 3
+Task name: Put-on-wallpapers
+Task time: 1
+Task manPower: 2
+Early start :  15
+Late start:  0
+Slack:  0
+Task's neighbour ==>8 , 
+
+Task id: 4
+Task name: Put-on-tiles
+Task time: 1
+Task manPower: 3
+Early start :  15
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 5
+Task name: Build-foundation
+Task time: 4
+Task manPower: 2
+Early start :  4
+Late start:  0
+Slack:  0
+Task's neighbour ==>1 , 6 , 
+
+Task id: 6
+Task name: Make-floor
+Task time: 2
+Task manPower: 2
+Early start :  6
+Late start:  0
+Slack:  0
+Task's neighbour ==>7 , 
+
+Task id: 7
+Task name: Put-carpet-floor
+Task time: 4
+Task manPower: 2
+Early start :  18
+Late start:  0
+Slack:  0
+Task's neighbour ==>8 , 
+
+Task id: 8
+Task name: Move-in
+Task time: 4
+Task manPower: 4
+Early start :  22
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+The shortest possible time is  22
+cycle is found and it's path is
+1 ==> 6 ==> 3 ==> 2 ==> 1
+Time: 0
+starting 9
+    current Staff: 10
+Time: 3
+    Finished: 9
+starting 10
+starting 11
+starting 12
+starting 14
+starting 16
+starting 17
+    current Staff: 56
+Time: 4
+    Finished: 11
+starting 18
+starting 19
+starting 20
+    current Staff: 64
+Time: 5
+    Finished: 10
+starting 2
+    current Staff: 70
+Time: 12
+    Finished: 2
+    current Staff: 60
+Time: 16
+    Finished: 20
+starting 23
+    current Staff: 61
+Time: 28
+    Finished: 14
+starting 15
+    current Staff: 61
+Time: 29
+    Finished: 19
+    current Staff: 57
+Time: 33
+    Finished: 12
+starting 13
+    current Staff: 57
+Time: 38
+    Finished: 16
+    current Staff: 45
+Time: 44
+    Finished: 18
+starting 21
+    current Staff: 46
+Time: 46
+    Finished: 23
+starting 26
+    current Staff: 48
+Time: 48
+    Finished: 17
+starting 22
+    current Staff: 41
+Time: 48
+    Finished: 15
+    current Staff: 29
+Time: 51
+    Finished: 13
+starting 8
+    current Staff: 24
+Time: 59
+    Finished: 21
+starting 24
+    current Staff: 26
+Time: 63
+    Finished: 8
+starting 3
+    current Staff: 29
+Time: 64
+    Finished: 22
+    Finished: 3
+starting 25
+    current Staff: 21
+Time: 66
+    Finished: 26
+    current Staff: 14
+Time: 119
+    Finished: 24
+starting 4
+    current Staff: 13
+Time: 124
+    Finished: 25
+starting 5
+starting 27
+    current Staff: 22
+Time: 134
+    Finished: 4
+    current Staff: 16
+Time: 136
+    Finished: 5
+    current Staff: 10
+Time: 149
+    Finished: 27
+starting 28
+starting 29
+    current Staff: 20
+Time: 179
+    Finished: 28
+    current Staff: 10
+Time: 186
+    Finished: 29
+starting 1
+starting 6
+starting 7
+starting 30
+    current Staff: 29
+Time: 204
+    Finished: 7
+    current Staff: 23
+Time: 206
+    Finished: 1
+    Finished: 30
+starting 31
+    current Staff: 13
+Time: 213
+    Finished: 6
+    current Staff: 7
+Time: 218
+    Finished: 31
+==========Task Info=====================
+Task id: 1
+Task name: Install-pavement
+Task time: 20
+Task manPower: 10
+Early start :  206
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 2
+Task name: Install-railing
+Task time: 7
+Task manPower: 10
+Early start :  12
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 3
+Task name: Install-ticketmachine
+Task time: 1
+Task manPower: 10
+Early start :  64
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 4
+Task name: Paint-tower-1-with-arch
+Task time: 15
+Task manPower: 6
+Early start :  134
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 5
+Task name: Paint-tower-2
+Task time: 12
+Task manPower: 6
+Early start :  136
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 6
+Task name: Paint-trusses
+Task time: 27
+Task manPower: 6
+Early start :  213
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 7
+Task name: Paint-cables-and-rods
+Task time: 18
+Task manPower: 6
+Early start :  204
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+Task id: 8
+Task name: Put-lane-tunnel-and-intersection
+Task time: 12
+Task manPower: 7
+Early start :  63
+Late start:  0
+Slack:  0
+Task's neighbour ==>3 , 31 , 
+
+Task id: 9
+Task name: Setup-barrack
+Task time: 3
+Task manPower: 10
+Early start :  3
+Late start:  0
+Slack:  0
+Task's neighbour ==>10 , 11 , 12 , 14 , 16 , 17 , 
+
+Task id: 10
+Task name: Prepare-storage
+Task time: 2
+Task manPower: 4
+Early start :  5
+Late start:  0
+Slack:  0
+Task's neighbour ==>2 , 
+
+Task id: 11
+Task name: Rig-ramspace-reinforcing
+Task time: 1
+Task manPower: 4
+Early start :  4
+Late start:  0
+Slack:  0
+Task's neighbour ==>18 , 19 , 20 , 
+
+Task id: 12
+Task name: Build-tunnel
+Task time: 30
+Task manPower: 12
+Early start :  33
+Late start:  0
+Slack:  0
+Task's neighbour ==>13 , 
+
+Task id: 13
+Task name: Clean-tunnel
+Task time: 18
+Task manPower: 12
+Early start :  51
+Late start:  0
+Slack:  0
+Task's neighbour ==>8 , 
+
+Task id: 14
+Task name: Build-intersection
+Task time: 25
+Task manPower: 12
+Early start :  28
+Late start:  0
+Slack:  0
+Task's neighbour ==>15 , 
+
+Task id: 15
+Task name: Clean-intersection
+Task time: 20
+Task manPower: 12
+Early start :  48
+Late start:  0
+Slack:  0
+Task's neighbour ==>8 , 
+
+Task id: 16
+Task name: Build-towerfoundation-1
+Task time: 35
+Task manPower: 12
+Early start :  38
+Late start:  0
+Slack:  0
+Task's neighbour ==>21 , 
+
+Task id: 17
+Task name: Build-towerfoundation-2
+Task time: 45
+Task manPower: 12
+Early start :  48
+Late start:  0
+Slack:  0
+Task's neighbour ==>22 , 
+
+Task id: 18
+Task name: Make-armouring-tower-1
+Task time: 40
+Task manPower: 4
+Early start :  44
+Late start:  0
+Slack:  0
+Task's neighbour ==>21 , 
+
+Task id: 19
+Task name: Make-armouring-tower-2
+Task time: 25
+Task manPower: 4
+Early start :  29
+Late start:  0
+Slack:  0
+Task's neighbour ==>22 , 
+
+Task id: 20
+Task name: Make-armouring-arch
+Task time: 12
+Task manPower: 4
+Early start :  16
+Late start:  0
+Slack:  0
+Task's neighbour ==>23 , 
+
+Task id: 21
+Task name: Encase-and-armour-tower-1
+Task time: 15
+Task manPower: 5
+Early start :  59
+Late start:  0
+Slack:  0
+Task's neighbour ==>24 , 
+
+Task id: 22
+Task name: Encase-and-armour-tower-2
+Task time: 16
+Task manPower: 5
+Early start :  64
+Late start:  0
+Slack:  0
+Task's neighbour ==>25 , 
+
+Task id: 23
+Task name: Encase-and-armour-arch
+Task time: 30
+Task manPower: 5
+Early start :  46
+Late start:  0
+Slack:  0
+Task's neighbour ==>26 , 
+
+Task id: 24
+Task name: Cast-tower-1
+Task time: 60
+Task manPower: 7
+Early start :  119
+Late start:  0
+Slack:  0
+Task's neighbour ==>4 , 27 , 
+
+Task id: 25
+Task name: Cast-tower-2
+Task time: 60
+Task manPower: 7
+Early start :  124
+Late start:  0
+Slack:  0
+Task's neighbour ==>5 , 27 , 
+
+Task id: 26
+Task name: Cast-arch
+Task time: 20
+Task manPower: 7
+Early start :  66
+Late start:  0
+Slack:  0
+Task's neighbour ==>31 , 
+
+Task id: 27
+Task name: Stretch-two-maincables
+Task time: 25
+Task manPower: 10
+Early start :  149
+Late start:  0
+Slack:  0
+Task's neighbour ==>28 , 29 , 
+
+Task id: 28
+Task name: Build-truss-1-with-rods
+Task time: 30
+Task manPower: 10
+Early start :  179
+Late start:  0
+Slack:  0
+Task's neighbour ==>1 , 6 , 7 , 30 , 
+
+Task id: 29
+Task name: Build-truss-2-with-rods
+Task time: 37
+Task manPower: 10
+Early start :  186
+Late start:  0
+Slack:  0
+Task's neighbour ==>1 , 6 , 7 , 30 , 
+
+Task id: 30
+Task name: Cast-lane-on-truss
+Task time: 20
+Task manPower: 7
+Early start :  206
+Late start:  0
+Slack:  0
+Task's neighbour ==>31 , 
+
+Task id: 31
+Task name: Polish-lane-on-arch
+Task time: 12
+Task manPower: 7
+Early start :  218
+Late start:  0
+Slack:  0
+Task's neighbour ==>
+
+The shortest possible time is  218

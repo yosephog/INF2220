@@ -1,0 +1,24 @@
+the time for array of length 100
+radix time 0.042178
+Arrays.sort time 0.181975
+=========================================
+the time for array of length 1000
+radix time 0.355527
+Arrays.sort time 0.028316
+=========================================
+the time for array of length 10000
+radix time 0.466601
+Arrays.sort time 0.198084
+=========================================
+the time for array of length 100000
+radix time 8.829216
+Arrays.sort time 3.057457
+=========================================
+the time for array of length 1000000
+radix time 37.360168
+Arrays.sort time 16.486704
+=========================================
+the time for array of length 10000000
+radix time 354.395889
+Arrays.sort time 6.743922
+=========================================

@@ -1,0 +1,61 @@
+the word you are looking for is not found.
+list of similar words are 
+achive
+achier
+the word you are looking for is not found.
+list of similar words are 
+achieve
+achiest
+achinese
+the word you are looking for is not found.
+list of similar words are 
+achieved
+achiever
+achieves
+achieve
+achieve
+the word you are looking for is not found.
+list of similar words are 
+achieve
+the depth is 36
+the first word is abactinally
+the last word is darndests
+the time ellapsed in Millis is  4
+nr of Nodes at level 0 is 1
+nr of Nodes at level 1 is 2
+nr of Nodes at level 2 is 4
+nr of Nodes at level 3 is 8
+nr of Nodes at level 4 is 16
+nr of Nodes at level 5 is 32
+nr of Nodes at level 6 is 64
+nr of Nodes at level 7 is 121
+nr of Nodes at level 8 is 218
+nr of Nodes at level 9 is 383
+nr of Nodes at level 10 is 628
+nr of Nodes at level 11 is 990
+nr of Nodes at level 12 is 1513
+nr of Nodes at level 13 is 2208
+nr of Nodes at level 14 is 2949
+nr of Nodes at level 15 is 3889
+nr of Nodes at level 16 is 4772
+nr of Nodes at level 17 is 5670
+nr of Nodes at level 18 is 6251
+nr of Nodes at level 19 is 6688
+nr of Nodes at level 20 is 6690
+nr of Nodes at level 21 is 6448
+nr of Nodes at level 22 is 5890
+nr of Nodes at level 23 is 5101
+nr of Nodes at level 24 is 4244
+nr of Nodes at level 25 is 3254
+nr of Nodes at level 26 is 2395
+nr of Nodes at level 27 is 1789
+nr of Nodes at level 28 is 1177
+nr of Nodes at level 29 is 705
+nr of Nodes at level 30 is 429
+nr of Nodes at level 31 is 236
+nr of Nodes at level 32 is 138
+nr of Nodes at level 33 is 60
+nr of Nodes at level 34 is 25
+nr of Nodes at level 35 is 9
+nr of Nodes at level 36 is 3
+the average depth is 19

@@ -1,0 +1,127 @@
+
+
+
+import java.util.*;
+/**
+ * this class manage the project that is it copy the
+ * taskList from the FilManger class and use it to
+ * calculate time,slack and display task info
+ * @author yoseph
+ */
+
+
+public class ProjectManger {
+      
+      Task[] myTask=FileManger.getTaskList();
+      
+      // increment the time to get the max time
+      int maxTime;
+       public void calcTime() {
+                // copy tasks with zeroIndegree from the Filemanger class
+		ArrayList<Task> myTask1 = FileManger.getZeroIndegree();  
+		ArrayList<Task> myTask2 = new ArrayList<>();
+		int tid = 0;
+                int staff = 0;
+		
+		System.out.println("Time: " + tid);
+        
+		while (!myTask1.isEmpty() || !myTask2.isEmpty()) {
+			
+			 for(Task t:myTask1){
+                            staff+=t.getManPower();
+                            t.started=tid;
+                            myTask2.add(t);
+                            System.out.println("starting " + t.getTaskId());
+                        }
+                        
+                            myTask1.clear();
+                       
+			int minimum = -1;
+                       
+                        
+                        for(int i=0;i<myTask2.size();i++){
+                           if(minimum < 0 || myTask2.get(i).stopTime() < minimum)
+                                minimum=myTask2.get(i).stopTime();
+                        }
+			
+			System.out.println("    current Staff: " + staff);
+			tid = minimum;
+			System.out.println("Time: " + tid);
+                        
+			
+                       
+			for (int i=0;i<myTask2.size();i++) { 
+				Task temp = myTask2.get(i);
+                                
+				if (temp.stopTime() != tid)
+					continue;
+				for(Task ii: temp.getNeighbour()){ 
+					ii.defSize--;
+					if (ii.defSize <= 0) {  
+						myTask1.add(ii);
+					}
+				}
+				System.out.println("    Finished: " + temp.getTaskId());
+				staff -= temp.getManPower();  
+				
+                                myTask2.remove(i);
+			}
+                      
+                       
+		}
+		maxTime = tid;
+		
+	} 
+         public void calcSlack(){
+             LinkedList<Task> temp=new LinkedList<>();
+             ArrayList<Task> zero=FileManger.getZeroIndegree();
+             for(Task t1:zero){
+                 if(t1.stopTime() == maxTime){
+                     temp.add(t1);
+                     t1.isCritical=1;
+                     t1.slack=t1.stopTime() - maxTime;
+                 }
+             }
+             while(!temp.isEmpty()){
+                 Task t2=temp.remove();
+                 for(Task t3:t2.getDepenndancy()){
+                     if(t2.started==t3.stopTime() && t3.getCritical() != 1){
+                         temp.add(t3);
+                         t3.isCritical=1;
+                     }
+                     else{
+                         int slack=t2.started - t3.stopTime();
+                         t3.slack=slack;
+                     }
+                 }
+             }
+         }
+     public void printAboutTask(){
+		
+		System.out.println("==========Task Info=====================");
+		
+		for (Task temp: myTask) {
+
+			System.out.println("Task id: " + temp.getTaskId());
+			System.out.println("Task name: " + temp.getTaskName());
+			System.out.println("Task time: " + temp.getTime());
+			System.out.println("Task manPower: " + temp.getManPower());
+			System.out.println("Early start :  " + temp.stopTime());
+			System.out.println("Late start:  " + temp.getLateStart());
+			System.out.println("Slack:  " + temp.slack);
+			if (temp.getSlack()==1) {
+				System.out.println("The task is critical ");	
+			}
+			System.out.print("Task's neighbour ==>");
+                        temp.printArray(temp.getNeighbour());
+			
+			
+			System.out.println();
+			System.out.println();
+
+		}
+		System.out.println("The shortest possible time is  "+ maxTime);
+		
+		}
+	
+}
